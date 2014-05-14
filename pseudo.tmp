@@ -1,0 +1,23 @@
+# RULES
+#    Any live cell with fewer than two live neighbours dies, as if caused by under-population.
+#    Any live cell with two or three live neighbours lives on to the next generation.
+#    Any live cell with more than three live neighbours dies, as if by overcrowding.
+#    Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+# FEATURES
+
+# User input to create seed cells
+# Have a list of standard initial cell positions
+# Aility to change the rules either initially by design or later by algorithm
+
+# Initialize Variables
+# use appropriate graphics library
+
+# To Do
+# Representation of cells
+
+
+# Iterate through simulation
+# Check environment around cell
+# Spawn child or die at appropriate position
+
