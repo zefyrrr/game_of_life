@@ -15,9 +15,17 @@
 
 # To Do
 # Representation of cells
+# c1, x_pos, y_pos
+# c2, x_pos, y_pos
+# cells come and go, time accumulates
+# cn, x_pos, y_pos
 
 
 # Iterate through simulation
 # Check environment around cell
+# compare Cx, x_pos, y_pos with adjacent 8 cell positions. count and add, if <2 then die, #if more than 3 then also die. 
+# there is something missing here about the potential of a future adjacent cell
+
+
 # Spawn child or die at appropriate position
 
