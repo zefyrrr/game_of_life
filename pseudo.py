@@ -1,3 +1,8 @@
+import random
+
+
+
+
 # RULES
 #    Any live cell with fewer than two live neighbours dies, as if caused by under-population.
 #    Any live cell with two or three live neighbours lives on to the next generation.
@@ -20,6 +25,37 @@
 # cells come and go, time accumulates
 # cn, x_pos, y_pos
 
+# Check adjacency
+
+#for each element
+# check if any of the other elements are close by
+#
+#if element x/y = x+1/y+1 then neighbour++
+#if neighbor < 
+#
+#when deleting a cell, mark its position
+#
+#x,y,n
+#
+#make it a class:
+#	a pixel is a class, update the objects and print the list
+#
+#update it on a timer
+
+x = [ [ 2, 3, 4 ] , [ 3, 6, 0 ] ]
+x.append("hello world")
+#print x
+#del x[1]
+#print x
+
+
+for i in range(10):
+	x.append([random.randint(0, 5),random.randint(0, 5),random.randint(0, 5)])
+
+mylist = list(set(x))
+
+for i in range(len(mylist)):
+	print myslit[i]
 
 # Iterate through simulation
 # Check environment around cell
